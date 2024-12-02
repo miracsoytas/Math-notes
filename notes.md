@@ -1,159 +1,154 @@
-# Mathematics Activities (1-10)
+# Mathematics Exercises 2024/2025 - Solutions
  
 ---
  
-## **1. Basic Operations on Matrices**
+## 1. Basic Operations on Matrices
  
-### Matrices:
-$$
-A = \begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix}, \,  
-B = \begin{bmatrix} 5 & 6 \\ 7 & 8 \end{bmatrix}, \,  
-C = \begin{bmatrix} -1 & 2 \\ 3 & 0 \end{bmatrix}, \,  
-D = \begin{bmatrix} -1 & 2 & 3 \\ 4 & 0 & 6 \end{bmatrix}, \,  
-E = \begin{bmatrix} 1 & 2 & 4 \\ 5 & 7 & 8 \end{bmatrix}
-$$
+### Given Matrices:
  
-### 1.1 Additions and Subtractions
 $$
-A + B = \begin{bmatrix} 6 & 8 \\ 10 & 12 \end{bmatrix}
-$$
-$$
-B - A = \begin{bmatrix} 4 & 4 \\ 4 & 4 \end{bmatrix}
-$$
-$$
-A + C = \begin{bmatrix} 0 & 4 \\ 6 & 4 \end{bmatrix}
-$$
- 
-### 1.2 Scalar Multiplications
-$$
-\frac{1}{3} A = \begin{bmatrix} 0.333 & 0.667 \\ 1 & 1.333 \end{bmatrix}
-$$
-$$
-2B = \begin{bmatrix} 10 & 12 \\ 14 & 16 \end{bmatrix}
-$$
-$$
--3C = \begin{bmatrix} 3 & -6 \\ -9 & 0 \end{bmatrix}
-$$
-$$
-4D = \begin{bmatrix} -4 & 8 & 12 \\ 16 & 0 & 24 \end{bmatrix}
-$$
- 
-### 1.3 Products
-$$
-A \cdot B = \begin{bmatrix} 19 & 22 \\ 43 & 50 \end{bmatrix}
-$$
-$$
-B \cdot A = \begin{bmatrix} 23 & 34 \\ 31 & 46 \end{bmatrix}
-$$
-$$
-A \cdot D = \begin{bmatrix} 7 & 2 \\ 13 & 6 \end{bmatrix}
-$$
-$$
-D \cdot E^\text{T} = \begin{bmatrix} 15 & 33 \\ 28 & 68 \end{bmatrix}
-$$
- 
----
- 
-## **2. Determinants of Matrices**
- 
-### 2x2 Matrices
-$$
-A = \begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix}, \,  
-B = \begin{bmatrix} 5 & 6 \\ 7 & 8 \end{bmatrix}, \,  
+A = \begin{bmatrix} 1 & 2 \\ 3 & 4 \end{bmatrix},
+B = \begin{bmatrix} 5 & 6 \\ 7 & 8 \end{bmatrix},
 C = \begin{bmatrix} -1 & 2 \\ 3 & 0 \end{bmatrix}
 $$
  
+ 
+---
+ 
+### Matrix Addition:
+ 
+1. **\( A + B \):**
 $$
-\text{det}(A) = (1 \cdot 4) - (2 \cdot 3) = -2
-$$
-$$
-\text{det}(B) = (5 \cdot 8) - (6 \cdot 7) = -2
-$$
-$$
-\text{det}(C) = (-1 \cdot 0) - (2 \cdot 3) = -6
+A + B = \begin{bmatrix} 6 & 8 \\ 10 & 12 \end{bmatrix}
 $$
  
-### 3x3 Matrices
+2. **\( B - A \):**
 $$
-D = \begin{bmatrix} 1 & 0 & 2 \\ -3 & 1 & -1 \\ 2 & 4 & -2 \end{bmatrix}, \,  
-E = \begin{bmatrix} 3 & 1 & -1 \\ 0 & 2 & 4 \\ 5 & 3 & 2 \end{bmatrix}, \,  
-F = \begin{bmatrix} 2 & -3 & 1 \\ 1 & 4 & -2 \\ 1 & 5 & 3 \end{bmatrix}
-$$
- 
-$$
-\text{det}(D) = -26
-$$
-$$
-\text{det}(E) = 6
-$$
-$$
-\text{det}(F) = 60
+B - A = \begin{bmatrix} 4 & 4 \\ 4 & 4 \end{bmatrix}
 $$
  
 ---
  
-## **3. Inverse of a Matrix Using the Formula**
- 
-### Given Matrix:
+### Scalar Multiplication:
+1. **\( \frac{1}{2}A \):**
 $$
-A = \begin{bmatrix} 2 & 0 & 1 \\ 0 & 1 & 0 \\ 1 & 2 & 0 \end{bmatrix}
-$$
- 
-#### Steps:
-1. Calculate the determinant:
-$$
-\text{det}(A) = -1
-$$
- 
-2. Calculate the adjoint matrix:
-$$
-\text{Adj}(A) = \begin{bmatrix} -2 & -2 & 1 \\ -1 & 2 & -2 \\ 1 & -2 & 2 \end{bmatrix}
-$$
- 
-3. Find the inverse:
-$$
-A^{-1} = \frac{1}{\text{det}(A)} \cdot \text{Adj}(A) = -1 \cdot \begin{bmatrix} -2 & -2 & 1 \\ -1 & 2 & -2 \\ 1 & -2 & 2 \end{bmatrix}
-$$
-$$
-A^{-1} = \begin{bmatrix} 2 & 2 & -1 \\ 1 & -2 & 2 \\ -1 & 2 & -2 \end{bmatrix}
+\frac{1}{2}A = \begin{bmatrix} 0.5 & 1.0 \\ 1.5 & 2.0 \end{bmatrix}
 $$
  
 ---
  
-## **4. Eigenvalues and Eigenvectors**
- 
-### Matrix:
+### Matrix Multiplication:
+1. **\( A \cdot B \):**
 $$
-A = \begin{bmatrix} 6 & 2 \\ 2 & 3 \end{bmatrix}
-$$
- 
-1. Solve the characteristic equation:
-$$
-\text{det}(A - \lambda I) = 0
-$$
-$$
-\begin{vmatrix} 6 - \lambda & 2 \\ 2 & 3 - \lambda \end{vmatrix} = 0
-$$
- 
-2. Eigenvalues:
-$$
-\lambda_1 = 7, \, \lambda_2 = 2
-$$
- 
-3. Eigenvectors:
-For \( \lambda_1 = 7 \):
-$$
-\text{Eigenvector: } v_1 = \begin{bmatrix} 2 \\ 1 \end{bmatrix}
-$$
- 
-For \( \lambda_2 = 2 \):
-$$
-\text{Eigenvector: } v_2 = \begin{bmatrix} -1 \\ 1 \end{bmatrix}
+A \cdot B = \begin{bmatrix} 19 & 22 \\ 43 & 50 \end{bmatrix}
 $$
  
 ---
  
-
+## 2. Determinants (2x2 Matrices)
+ 
+### Given Matrices:
+$$
+A = \begin{bmatrix} 2 & 3 \\ 1 & 4 \end{bmatrix},
+B = \begin{bmatrix} 5 & 6 \\ 7 & 8 \end{bmatrix},
+C = \begin{bmatrix} -1 & 2 \\ 3 & 0 \end{bmatrix}
+$$
+ 
+### Calculations:
+1. **\( \text{det}(A) \):**
+$$
+\text{det}(A) = 2 \cdot 4 - 3 \cdot 1 = 5
+$$
+ 
+2. **\( \text{det}(B) \):**
+$$
+\text{det}(B) = 5 \cdot 8 - 6 \cdot 7 = -2
+$$
+ 
+3. **\( \text{det}(C) \):**
+$$
+\text{det}(C) = (-1) \cdot 0 - 2 \cdot 3 = -6
+$$
+ 
+---
+ 
+## 3. Determinants Using Laplace's Expansion
+Given matrix \( A \):
+$$
+A = \begin{bmatrix} 2 & 3 & 1 \\ 1 & 4 & 0 \\ 3 & 2 & 1 \end{bmatrix}
+$$
+ 
+### Solution:
+$$
+\text{det}(A) = 14
+$$
+ 
+---
+## 4. Determinants via Gauss Method
+ 
+Given matrix \( A \):
+$$
+A = \begin{bmatrix} 12 & 3 \\ -18 & -4 \end{bmatrix}
+$$
+ 
+### Step 1: Recall the Gauss Method
+The determinant of a matrix can be computed by reducing the matrix to an upper triangular form using row operations. For a \( 2 \times 2 \) matrix:
+ 
+$$
+A = \begin{bmatrix} a & b \\ c & d \end{bmatrix}
+$$
+ 
+The determinant is given by:
+ 
+$$
+\text{det}(A) = ad - bc
+$$
+ 
+### Step 2: Identify Row Operations
+The determinant remains unchanged under the following operations:
+- Adding or subtracting a multiple of one row from another.
+ 
+However, the determinant changes in the following ways:
+1. Swapping two rows multiplies the determinant by \( -1 \).
+2. Scaling a row by a factor \( k \) multiplies the determinant by \( k \).
+ 
+### Step 3: Apply Row Operations
+Given matrix \( A \):
+$$
+A = \begin{bmatrix} 12 & 3 \\ -18 & -4 \end{bmatrix}
+$$
+ 
+#### Step 3.1: Make the bottom-left entry (\( -18 \)) zero
+We aim to make \( c = 0 \) in the second row (\( R_2 \)) using row operations.
+ 
+Perform the row operation:
+ 
+$$
+R_2 \rightarrow R_2 + \frac{18}{12} R_1 = R_2 + 1.5 R_1
+$$
+ 
+This gives:
+ 
+$$
+A' = \begin{bmatrix} 12 & 3 \\ 0 & 0.5 \end{bmatrix}
+$$
+ 
+#### Step 3.2: Compute the determinant
+The determinant of an upper triangular matrix is the product of the diagonal elements. For \( A' \):
+ 
+$$
+\text{det}(A') = 12 \cdot 0.5 = 6
+$$
+ 
+### Final Answer
+The determinant of the matrix \( A \) is:
+ 
+$$
+\text{det}(A) = 6
+$$
+ 
+---
+ 
 ## 5. Inverse of a Matrix
 Matrix \( A \):
 $$
@@ -163,46 +158,21 @@ $$
 ### Solution:
 $$
 A^{-1} = \begin{bmatrix} 0 & 0 & 1 \\ 0 & 1 & 0 \\ 1 & -2 & -2 \end{bmatrix}
-
 $$
  
 ---
  
-## **6. Rank of a Matrix**
- 
-#### Given Matrix:
+## 6. Inverse Using Gauss Method
+Matrix \( B \):
 $$
-A = \begin{bmatrix} 1 & 2 & 3 \\ 4 & 5 & 6 \\ 7 & 8 & 9 \end{bmatrix}
-$$
- 
-1. Apply row operations to reduce to row echelon form:
-$$
-\begin{bmatrix} 1 & 2 & 3 \\ 0 & -3 & -6 \\ 0 & 0 & 0 \end{bmatrix}
+B = \begin{bmatrix} 1 & 2 & 3 \\ 4 & 5 & 1 \\ 2 & 3 & 2 \end{bmatrix}
 $$
  
-2. Count non-zero rows:
+### Solution:
 $$
-\text{Rank}(A) = 2
+B^{-1} = \begin{bmatrix} -7 & 8 & -1 \\ 3 & -4 & 1 \\ 1 & -1 & 0 \end{bmatrix}
 $$
  
 ---
  
-## **7. Cross Product of Vectors**
- 
-#### Given Vectors:
-$$
-u = \begin{bmatrix} 1 \\ 2 \\ 3 \end{bmatrix}, \,  
-v = \begin{bmatrix} 4 \\ 5 \\ 6 \end{bmatrix}
-$$
- 
-1. Cross product formula:
-$$
-u \times v = \begin{vmatrix} \mathbf{i} & \mathbf{j} & \mathbf{k} \\ 1 & 2 & 3 \\ 4 & 5 & 6 \end{vmatrix}
-$$
- 
-2. Result:
-$$
-u \times v = \begin{bmatrix} -3 \\ 6 \\ -3 \end{bmatrix}
-$$
-
-
+has context menu

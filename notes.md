@@ -175,4 +175,20 @@ $$
  
 ---
  
-
+## **7. Cross Product of Vectors**
+ 
+#### Given Vectors:
+$$
+u = \begin{bmatrix} 1 \\ 2 \\ 3 \end{bmatrix}, \,  
+v = \begin{bmatrix} 4 \\ 5 \\ 6 \end{bmatrix}
+$$
+ 
+1. Cross product formula:
+$$
+u \times v = \begin{vmatrix} \mathbf{i} & \mathbf{j} & \mathbf{k} \\ 1 & 2 & 3 \\ 4 & 5 & 6 \end{vmatrix}
+$$
+ 
+2. Result:
+$$
+u \times v = \begin{bmatrix} -3 \\ 6 \\ -3 \end{bmatrix}
+$$

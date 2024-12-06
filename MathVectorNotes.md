@@ -9,7 +9,7 @@ $$
 \|\mathbf{a}\| = \sqrt{x^2 + y^2}
 $$
 
-For \( \mathbf{a} = [3, 4] \):
+For $\mathbf{a} = [3, 4]$:
 $$
 \|\mathbf{a}\| = \sqrt{3^2 + 4^2} = \sqrt{9 + 16} = \sqrt{25} = 5
 $$
